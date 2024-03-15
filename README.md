@@ -6,6 +6,9 @@ Welcome to the DMART Shop Assistant project! This Streamlit web application serv
 
 The DMART Shop Assistant provides users with an intuitive interface to interact with a dataset containing DMART product details. Users can ask questions about various product categories, and the virtual assistant retrieves relevant information using natural language processing (NLP) techniques.
 
+## Output 
+![Screenshot 2024-03-15 150030](https://github.com/adesh-commits/DMART-SHOP-ASSISTANT/assets/89679291/4df84a4e-02f2-4624-8636-4dc2e7a8456a)
+
 ## Features
 
 - **Product Category Selection**: Users can choose a product category from predefined options.
@@ -19,35 +22,41 @@ The DMART Shop Assistant provides users with an intuitive interface to interact 
 ## Setup
 
 1. Clone the repository:
+ ```bash
+   git clone https://github.com/adesh-commits/dmart-shop-assistant.git
+```
 
-   ```bash
-   git clone https://github.com/yourusername/dmart-shop-assistant.git
-
-2.Navigate to the project directory:
+2. Navigate to the project directory:
 
 ```bash
 Copy code
 cd dmart-shop-assistant
-Install the required dependencies:
+```
+
+3. Install the required dependencies:
 
 ```bash
 Copy code
 pip install -r requirements.txt
-Run the Streamlit application:
+```
+4. Run the Streamlit application:
 
-bash
+```bash
 Copy code
 streamlit run app.py
-Open your web browser and navigate to http://localhost:8501 to access the DMART Shop Assistant.
+```
+5. Open your web browser and navigate to http://localhost:8501 to access the DMART Shop Assistant.
 
-Dependencies
-Streamlit
-Langchain
-Hugging Face Transformers
-OpenAI
-Usage
-Select a product category from the dropdown menu.
-Ask questions about DMART products using the text input field.
-View the conversational history and responses in the UI.
-Contributing
+## Dependencies
+- Streamlit
+- Langchain
+- Hugging Face Transformers
+- OpenAI
+
+## Usage
+- Select a product category from the dropdown menu.
+- Ask questions about DMART products using the text input field.
+- View the conversational history and responses in the UI.
+
+## Contributing
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
